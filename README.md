@@ -1,16 +1,12 @@
-# BGF-QGIS
+# BGF-QGIS-3.x
+This repository contains a QGIS 3.x template for mapping Blue-Green Structure Typologies and calculating the Blue-Green Factor (BGF) according to BGF Oslo 2023 and BGF Standard Norge 2020. In addition, costs for production and maintenance can be calculated. 
 
-The blue-green factor (BGF) is a rapid assessment tool to help quantify minimum municipal requirements for surface water management, vegetation qualities and biodiversity in outdoor areas of property developments.   BGF-QGIS makes it possible to calculate the blue-green factor for larger areas than in the original Excel-based methodology, by taking advantage of remote sensing data, GIS datasets, and CAD-based design proposals. It also provides a flexible platform for adjusting the scoring of blue-green qualities to suit specific local conditions and priorities.
+## Usage
 
+Read the [documentation](https://ninanor.github.io/EAguide/data-collection/field-surveys/qfield-bgf.html) for a detailed guide on how to use the BGF-QGIS template.
 
-MAIN folder is named “BGF_QGIS_GitHub” and inside you find the following substructure
+This template is designed to be used within Desktop QGIS v.3.x. It is not recommended to use this template inside QField, as it is not optimized for mobile devices.
 
-•	CSV – contains all spreadsheet tables with data
+## Acknowledgments
 
-•	DOCUMENTATION – tutorial for use of the BGF-QGIS project
-
-•	STYLE – QGIS style file for “BGF_flate” layer containing field structure, label and colour coding
-
-•	VECTOR – all vector files used in the project (ex: BGF_flate, BGF_locality_area, property borders)
-
-•	BGF_qgis_project.qgs – project file to be OPENED
+This template is adapted from **BGF-QGIS** repository, developed and published by Peter Horvath (UiO Natural History Museum). We express our gratitude to Peter and all contributors to the original template for their foundational work. The original QGIS Template for use in QGIS v.2.x can be downloaded [here](https://github.com/peterhor/BGF-QGIS).
