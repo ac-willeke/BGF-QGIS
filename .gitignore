@@ -1,2 +1,4 @@
 
 *.qgs~
+*.gpkg-shm
+*.gpkg-wal
