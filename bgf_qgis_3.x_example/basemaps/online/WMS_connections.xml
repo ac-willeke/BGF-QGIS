@@ -1,0 +1,9 @@
+<!DOCTYPE connections>
+<qgsWMSConnections version="1.0">
+    <wms password="" ignoreAxisOrientation="false" invertAxisOrientation="false" ignoreGetMapURI="false" smoothPixmapTransform="false" ignoreGetFeatureInfoURI="false" name="DTM" dpiMode="7" username="" url="https://wms.geonorge.no/skwms1/wms.hoyde-dtm"/>
+    <wms password="" ignoreAxisOrientation="false" invertAxisOrientation="false" ignoreGetMapURI="false" smoothPixmapTransform="false" ignoreGetFeatureInfoURI="false" name="Eiendomskart" dpiMode="7" username="" url="https://openwms.statkart.no/skwms1/wms.matrikkel"/>
+    <wms password="" ignoreAxisOrientation="false" invertAxisOrientation="false" ignoreGetMapURI="false" smoothPixmapTransform="false" ignoreGetFeatureInfoURI="false" name="FKB WMS" dpiMode="7" username="" url="https://openwms.statkart.no/skwms1/wms.fkb"/>
+    <wms password="" ignoreAxisOrientation="false" invertAxisOrientation="false" ignoreGetMapURI="false" smoothPixmapTransform="false" ignoreGetFeatureInfoURI="false" name="Grunnkart Arealregnskap" dpiMode="7" username="" url="https://wms.nibio.no/cgi-bin/arealregnskap_grunnkart"/>
+    <wms password="" ignoreAxisOrientation="false" invertAxisOrientation="false" ignoreGetMapURI="false" smoothPixmapTransform="false" ignoreGetFeatureInfoURI="false" name="NiB - ortomosaic" dpiMode="7" username="" url="http://opencache.statkart.no/gatekeeper/gk/gk.open_nib_utm33_wmts_v2"/>
+    <wms password="" ignoreAxisOrientation="false" invertAxisOrientation="false" ignoreGetMapURI="false" smoothPixmapTransform="false" ignoreGetFeatureInfoURI="false" name="DOM" dpiMode="7" username="" url="https://wms.geonorge.no/skwms1/wms.hoyde-dom"/>
+</qgsWMSConnections>
