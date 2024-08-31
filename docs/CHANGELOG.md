@@ -38,6 +38,9 @@
 - Create a PDF report that shows the BGF typologies and the BGF score. 
     - This report can be used for communication with stakeholders and for documentation purposes. 
     - The report should be generated automatically when the BGF score is calculated.
+- Cost module: account for spatial explicit characteristics such as land use/soil type when calculating costs. 
+    - e.g. cost will be higher/lower than average for certain soil types
+    - soil type maps need to be available in the project area or first manually mapped.
 
 ## Comparison of BGF-QGIS v2.x and v3.x
 
