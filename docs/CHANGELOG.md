@@ -25,6 +25,18 @@
 - Online basemaps are added to the project.
 - BGF norm and cost calculation can be exported to a CSV file.
 
+**Breaking changes:**
+The mapping methodology has changed. The BGF-QGIS 3.x template is now based on the following steps:
+    1. Map the BGF typologies.
+    2. Map the trees. 
+    3. Fill in a questionair on project level regarding additional quality attributes.
+    4. The BGF score is calculated automatically and can be exported to Excel. 
+
+The BGF-QGIS 2.x template was based on the following steps:
+    1. Map the BGF typologies on 2 levels: surfaces and additional qualities. 
+    2. Export the BGF typologies to Excel.
+    3. Calculate the BGF score in Excel.
+
 ## Future improvements
 
 - Create one QGIS project for mapping both BGF, NiN and Biodiveristy Metrics typologies. 
