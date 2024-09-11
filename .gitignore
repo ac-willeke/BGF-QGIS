@@ -2,3 +2,5 @@
 *.qgs~
 *.gpkg-shm
 *.gpkg-wal
+
+/docs/docs
